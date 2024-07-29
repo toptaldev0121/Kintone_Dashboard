@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <style>
+        table, th, td {
+            padding: 8px !important;
+        }
+    </style>
+</head>
+<body id="page-top">
+    <div id="wrapper">
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                    <div>
+                        <p class="mb-0 small">HONMA DISMANTLE CO.LTD</p>
+                        <a class="navbar-brand text-success" href="#"><p class="mb-0">本 間 解 体 工 業</p></a>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <a class="navbar-brand text-primary nav-item no-arrow mx-3" role="button" href="/k/#/portal/" style="font-size: 21px;">ホーム</a>
+                        <a class="navbar-brand text-primary nav-item no-arrow mx-3" role="button" href="/k/233/" style="font-size: 21px;">案件管理</a>
+                        <a class="navbar-brand text-primary nav-item no-arrow mx-3" role="button" href="/k/234/" style="font-size: 21px;">見積管理</a>
+                        <a class="navbar-brand text-primary nav-item no-arrow mx-3" role="button" href="#" style="font-size: 21px;">予算管理</a>
+                        <div class="topbar-divider d-none d-sm-block"></div>
+                    </ul>
+                </nav>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">契約金額</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">100, 000, 000￥</div>
+                                            <div class="mb-2"></div>
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">契約予定額</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">10, 000, 000, 000￥</div>
+                                            <div class="mb-2"></div>
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">目標達成率</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">00.0％</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">個人別契約金額</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">100, 000, 000￥</div>
+                                            <div class="mb-2"></div>
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">契約予定額</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">10, 000, 000, 000￥</div>
+                                            <div class="mb-2"></div>
+                                            <div class="text-lg font-weight-bold text-info text-uppercase mb-0">目標達成率</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">00.0％</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-md-6 md-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">受注予定案件一覧</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                                                        <thead>
+                                                            <tr role="row">
+                                                                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">契約予定年月</th>
+                                                                <th class="sorting" tabindex="1" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">工事開始</th>
+                                                                <th class="sorting" tabindex="2" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">工事完了</th>
+                                                                <th class="sorting" tabindex="3" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">担当者</th>
+                                                                <th class="sorting" tabindex="3" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">契約先</th>
+                                                                <th class="sorting" tabindex="4" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">工事名</th>
+                                                                <th class="sorting" tabindex="5" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">ランク</th>
+                                                                <th class="sorting" tabindex="6" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 150px;">契約予定額</th>
+                                                                <th class="sorting" tabindex="7" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 400px;">状況</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="odd">
+                                                                <td class="sorting_1">Airi Satou</td>
+                                                                <td>Accountant</td>
+                                                                <td>Tokyo</td>
+                                                                <td>33</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="even">
+                                                                <td class="sorting_1">Angelica Ramos</td>
+                                                                <td>Chief Executive</td>
+                                                                <td>London</td>
+                                                                <td>47</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2009/10/09</td>
+                                                                <td>$1,200,000</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="odd">
+                                                                <td class="sorting_1">Airi Satou</td>
+                                                                <td>Accountant</td>
+                                                                <td>Tokyo</td>
+                                                                <td>33</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="even">
+                                                                <td class="sorting_1">Angelica Ramos</td>
+                                                                <td>Chief Executive</td>
+                                                                <td>London</td>
+                                                                <td>47</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2009/10/09</td>
+                                                                <td>$1,200,000</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="odd">
+                                                                <td class="sorting_1">Airi Satou</td>
+                                                                <td>Accountant</td>
+                                                                <td>Tokyo</td>
+                                                                <td>33</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="even">
+                                                                <td class="sorting_1">Angelica Ramos</td>
+                                                                <td>Chief Executive</td>
+                                                                <td>London</td>
+                                                                <td>47</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2009/10/09</td>
+                                                                <td>$1,200,000</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="odd">
+                                                                <td class="sorting_1">Airi Satou</td>
+                                                                <td>Accountant</td>
+                                                                <td>Tokyo</td>
+                                                                <td>33</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                            <tr class="even">
+                                                                <td class="sorting_1">Angelica Ramos</td>
+                                                                <td>Chief Executive</td>
+                                                                <td>London</td>
+                                                                <td>47</td>
+                                                                <td>Tokyo</td>
+                                                                <td>2009/10/09</td>
+                                                                <td>$1,200,000</td>
+                                                                <td>2008/11/28</td>
+                                                                <td>$162,700</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 mb-4">
+                            <div class="card position-relative shadow">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">更 新 履 歴</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p class="mb-1 middle">2024/04/16 20:24 山田太郎さん見積もり○○○解体工事を更新しました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 斎藤花子さん見積もり○○○解体工事を更新しました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 武田真司さん案件 ○○○解体工事を更新しました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 佐々木たくろさん実行予算○○○解体工事を作成しました。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 mb-4">
+                            <div class="card position-relative shadow">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">あなたへのお知らせ</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p class="mb-1 middle">2024/04/16 20:24 見積 ○○○解体工事の意義が承認されました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 見積 ○○○解体工事の意義が承認されました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 見積 ○○○解体工事の意義が承認されました。</p>
+                                    <p class="mb-1 middle">2024/04/16 20:24 見積 ○○○解体工事の意義が承認されました。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
